@@ -8,6 +8,12 @@
     tools:context=".MainActivity">
 
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottom_app_bar"
         style="@style/Widget.MaterialComponents.BottomAppBar"
@@ -26,8 +32,8 @@
         style="@style/Widget.MaterialComponents.FloatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fabSize="normal"
         android:src="@drawable/ic_add_plus"
+        app:fabSize="normal"
         app:layout_anchor="@id/bottom_app_bar" />
 
 
